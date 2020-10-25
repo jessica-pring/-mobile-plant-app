@@ -5,7 +5,6 @@ const navActive = () => {
   for (let i = 0; i < btns.length; i++) {
     btns[i].addEventListener("click", () => {
       const current = document.querySelector('.active');
-      console.log(current)
       current[0].className = current[0].className.replace(" active", "");
       this.className += " active";
     });
