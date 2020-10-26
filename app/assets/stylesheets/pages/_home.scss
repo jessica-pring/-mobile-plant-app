@@ -1,7 +1,9 @@
 // Specific CSS for your home-page
 
 .planta {
+  z-index: 10;
   h1 {
+    color: #313639;
     font-family: $fog-font;
     font-size: 7em;
     position: absolute;
@@ -9,10 +11,37 @@
     top: 40%;
     transform: rotate(-90deg)
   }
+  @media only screen and (min-width: 800px) {
+    h1 {
+      font-size: 10em;
+    }
+  }
+  @media only screen and (min-width: 560px) {
+    h1 {
+      font-size: 8em;
+    }
+  }
 }
 
 .header {
   p {
     font-family: $fog-font;
+    left: 20%;
+    top: 14%;
+    position: absolute;
+    font-size: 2em;
+    color: #313639;
+  }
+}
+
+.image {
+  z-index: 9;
+  img {
+    width: 75vw;
+    max-height: 80vh;
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+    top: 25%;
   }
 }
