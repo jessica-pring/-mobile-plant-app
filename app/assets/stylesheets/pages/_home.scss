@@ -1,1 +1,18 @@
 // Specific CSS for your home-page
+
+.planta {
+  h1 {
+    font-family: $fog-font;
+    font-size: 7em;
+    position: absolute;
+    left: -70px;
+    top: 40%;
+    transform: rotate(-90deg)
+  }
+}
+
+.header {
+  p {
+    font-family: $fog-font;
+  }
+}
