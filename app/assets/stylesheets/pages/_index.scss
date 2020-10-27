@@ -1,2 +1,12 @@
 // Import page-specific CSS files here.
 @import "home";
+
+h2 {
+  font-family: $fog-font;
+  font-size: 28px;
+  letter-spacing: 0.1em;
+  background-color: #C8D7D4;
+  color: white;
+  padding: 8px;
+  text-transform: uppercase;
+}

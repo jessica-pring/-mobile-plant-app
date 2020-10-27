@@ -1,7 +1,25 @@
+#card {
+  // background-color: #e2f0e6;
+  img {
+    padding-left: 10%;
+  }
+}
+
 .card-info {
-  color: black;
+  // border-left: #C8D7D4 solid 2px;
+  // padding-left: 8px;
+  color: $fog;
+  font-family: 'Helvetica';
+  margin-bottom: 20px;
   h4 {
-    // transform-origin: 0 0;
-    // transform: rotate(90deg);
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+  }
+  h6 {
+    font-family: $fog-font;
+    font-size: 20px;
+  }
+  p {
+    margin: 0;
   }
 }
