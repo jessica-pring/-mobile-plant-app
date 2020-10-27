@@ -8,7 +8,7 @@
     font-size: 7em;
     position: absolute;
     left: -70px;
-    top: 40%;
+    top: 24%;
     transform: rotate(-90deg)
   }
   @media only screen and (min-width: 800px) {
@@ -27,9 +27,9 @@
   p {
     font-family: $fog-font;
     left: 20%;
-    top: 14%;
+    top: 4%;
     position: absolute;
-    font-size: 2em;
+    font-size: 1.8em;
     color: #313639;
   }
 }
@@ -42,6 +42,35 @@
     object-fit: cover;
     position: absolute;
     right: 0;
-    top: 25%;
+    top: 10%;
+  }
+}
+
+.byline {
+  width: 100%;
+  z-index: 10;
+  position: absolute;
+  top: 100%;
+  display: flex;
+  .p-right {
+    margin-left: auto;
+    width: 30%;
+    text-align: right;
+    margin-right: 5%;
+    p {
+
+    }
+  }
+}
+
+.image_2 {
+  img {
+    width: 75vw;
+    max-height: 80vh;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    top: 90%;
+    margin-top: 10px;
   }
 }
